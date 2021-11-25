@@ -991,15 +991,20 @@ def gen_karabiner_config():
         "profiles": [
             gen_profile_default(),
             gen_profile("𝑎𝑏𝑐𝑑𝑒𝑓𝑔ℎ𝑖𝑗𝑘𝑙𝑚𝑛𝑜𝑝𝑞𝑟𝑠𝑡𝑢𝑣𝑤𝑥𝑦𝑧",
-                        "𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍", "mathematical-italics"),
+                        "𝐴𝐵𝐶𝐷𝐸𝐹𝐺𝐻𝐼𝐽𝐾𝐿𝑀𝑁𝑂𝑃𝑄𝑅𝑆𝑇𝑈𝑉𝑊𝑋𝑌𝑍",
+                        "mathematical-italics"),
             gen_profile("ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖqʳˢᵗᵘᵛʷˣʸᶻ",
-                        "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾqᴿˢᵀᵁⱽᵂˣʸᶻ", "superscript"),
+                        "ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾqᴿˢᵀᵁⱽᵂˣʸᶻ",
+                        "superscript"),
             gen_profile("ₐbcdₑfghᵢⱼklmnₒpqᵣstᵤᵥwₓyz",
-                        "ₐbcdₑfghᵢⱼklmnₒpqᵣstᵤᵥwₓyz", "subscript"),
+                        "ₐbcdₑfghᵢⱼklmnₒpqᵣstᵤᵥwₓyz",
+                        "subscript"),
             gen_profile("𝛼𝛽𝜒𝛿𝜀𝜃𝛾𝜂𝜄j𝜅𝜆𝜇𝜈𝜊𝜋q𝜌𝜎𝜏𝜐𝜑𝜔𝜉𝜔𝜁",
-                        "𝛢𝛣𝛸𝛥𝛦𝛩𝛤𝛨𝛪j𝛫𝛬𝛭𝛮𝛰𝛱q𝛲𝛴𝛵𝛶𝛷𝛺𝛯𝛺𝛧", "greek"),
+                        "𝛢𝛣𝛸𝛥𝛦𝛩𝛤𝛨𝛪j𝛫𝛬𝛭𝛮𝛰𝛱q𝛲𝛴𝛵𝛶𝛷𝛺𝛯𝛺𝛧",
+                        "greek"),
             gen_profile("𝕒𝕓𝕔𝕕𝕖𝕗𝕘𝕙𝕚𝕛𝕜𝕝𝕞𝕟𝕠𝕡𝕢𝕣𝕤𝕥𝕦𝕧𝕨𝕩𝕪𝕫",
-                        "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ", "double-struck")
+                        "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ",
+                        "double-struck")
         ]
     }
     return karabiner_config
