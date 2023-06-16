@@ -931,7 +931,7 @@ def gen_profile(to_lower_alphabet, to_upper_alphabet, to_alphabet_name):
         print("not 26 characters : " + to_lower_alphabet)
         exit(0)
     if len(to_upper_alphabet) != 26:
-        print("not 26 characters : " + to_lower_alphabet)
+        print("not 26 characters : " + to_upper_alphabet)
         exit(0)
 
     profile = dict()
@@ -1006,7 +1006,7 @@ def gen_karabiner_config():
                         "𝔸𝔹ℂ𝔻𝔼𝔽𝔾ℍ𝕀𝕁𝕂𝕃𝕄ℕ𝕆ℙℚℝ𝕊𝕋𝕌𝕍𝕎𝕏𝕐ℤ",
                         "double-struck"),
             gen_profile("𝒶𝒷𝒸𝒹e𝒻g𝒽𝒾𝒿𝓀𝓁𝓂𝓃o𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏",
-                        "𝒜B𝒞𝒟EF𝒢H𝒥𝒦LM𝒩𝒪𝒫𝒬𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵",
+                        "𝒜B𝒞𝒟EF𝒢HI𝒥𝒦LM𝒩𝒪𝒫𝒬R𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵",
                         "mathematical-script")
         ]
     }
